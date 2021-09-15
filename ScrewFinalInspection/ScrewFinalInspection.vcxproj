@@ -41,12 +41,12 @@
     <Import Project="$(QtMsBuild)\qt_defaults.props" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <IncludePath>D:\OpenCV3.4.8\opencv\build\include;D:\OpenCV3.4.8\opencv\build\include\opencv;D:\OpenCV3.4.8\opencv\build\include\opencv2;$(MVCAM_COMMON_RUNENV)\Includes;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\OpenCV3.4.8\opencv\build\x64\vc14\lib;$(MVCAM_COMMON_RUNENV)\Libraries\win64;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\\Inc\\OpencvInc;.\\Inc\\OpencvInc\\opencv;.\\Inc\\OpencvInc\\opencv2;.\\Inc\\MVSInc;$(IncludePath)</IncludePath>
+    <LibraryPath>.\\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <IncludePath>D:\OpenCV3.4.8\opencv\build\include;D:\OpenCV3.4.8\opencv\build\include\opencv;D:\OpenCV3.4.8\opencv\build\include\opencv2;$(MVCAM_COMMON_RUNENV)\Includes;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\OpenCV3.4.8\opencv\build\x64\vc14\lib;$(MVCAM_COMMON_RUNENV)\Libraries\win64;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\\Inc\\OpencvInc;.\\Inc\\OpencvInc\\opencv;.\\Inc\\OpencvInc\\opencv2;.\\Inc\\MVSInc;$(IncludePath)</IncludePath>
+    <LibraryPath>.\\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>

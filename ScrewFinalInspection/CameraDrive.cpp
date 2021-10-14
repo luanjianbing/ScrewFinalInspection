@@ -58,6 +58,7 @@ void __stdcall ImageCallBackEx_3(unsigned char * pData, MV_FRAME_OUT_INFO_EX* pF
 	//path += (std::to_string(tms) + "_3.jpg");
 	//cv::imwrite(path, tmpGrabImg_3);
 	//threadPool.append_p(path);
+	// test
 }
 
 bool CameraDrive::startGrabForExternalTrigger() const {
